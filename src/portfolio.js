@@ -382,7 +382,7 @@ const degrees = {
     {
       title: "Kathmandu Institute of Science & Technology",
       subtitle: "+2 Science",
-      logo_path: "iiitk_logo.png",
+      logo_path: "iiitk_logo.j",
       alt_name: "Kist Kathmandu",
       duration: "2017 - 2019",
       descriptions: [
@@ -395,7 +395,7 @@ const degrees = {
     {
       title: "Herald College Kathmandu",
       subtitle: "B.Sc. in Computer Science",
-      logo_path: "iu_logo.png",
+      logo_path: "iu_logo.jpg",
       alt_name: "HCK Kathmandu",
       duration: "2021 - 2025",
       descriptions: [
@@ -746,14 +746,14 @@ const contactPageData = {
     postalCode: "44600",
     streetAddress: "Naxal",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/8YVfyzCNKeByTxP69"
-}
-,
+    location_map_link: "https://maps.app.goo.gl/M6WY7WAU8qhSprui7",
+  },
   phoneSection: {
     title: "",
     subtitle: "",
   },
 };
+
 
 export {
   settings,

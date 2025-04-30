@@ -28,6 +28,10 @@
   /* background-color: #6c63ff; */
   /* background: transparent; */
   box-shadow: 5px 5px 5px #d9dbdf;
+ 
+}
+.card-img img{
+  border-radius: 50%;
 }
 
 .body-header {
@@ -88,12 +92,10 @@
   padding: 10px;
   border-radius: 7px;
   border: 0px;
-  float: right;
+
 }
 
-.visit-btn:hover {
-  /* background-color:#6c63ffcc; */
-}
+
 
 .btn {
   margin: 0px;
