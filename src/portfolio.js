@@ -72,7 +72,8 @@ const socialMediaLinks = [
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/Gyane11?mibextid=wwXIfr&rdid=Hw53SOWTvm31KFnt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16dJxgGArn%2F%3Fmibextid%3DwwXIfr#",
+    link:
+      "https://www.facebook.com/Gyane11?mibextid=wwXIfr&rdid=Hw53SOWTvm31KFnt&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16dJxgGArn%2F%3Fmibextid%3DwwXIfr#",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -382,7 +383,7 @@ const degrees = {
     {
       title: "Kathmandu Institute of Science & Technology",
       subtitle: "+2 Science",
-      logo_path: "iiitk_logo.j",
+      logo_path: "iiitk_logo.png",
       alt_name: "Kist Kathmandu",
       duration: "2017 - 2019",
       descriptions: [
@@ -395,7 +396,7 @@ const degrees = {
     {
       title: "Herald College Kathmandu",
       subtitle: "B.Sc. in Computer Science",
-      logo_path: "iu_logo.jpg",
+      logo_path: "iu_logo.jpeg",
       alt_name: "HCK Kathmandu",
       duration: "2021 - 2025",
       descriptions: [
@@ -414,8 +415,7 @@ const certifications = {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -423,8 +423,7 @@ const certifications = {
       title: "Deep Learning",
       subtitle: "- Andrew Ng",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -432,8 +431,7 @@ const certifications = {
       title: "ML on GCP",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
-      certificate_link:
-        "#",
+      certificate_link: "#",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -441,8 +439,7 @@ const certifications = {
       title: "Data Science",
       subtitle: "- Alex Aklson",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -450,8 +447,7 @@ const certifications = {
       title: "Big Data",
       subtitle: "- Kim Akers",
       logo_path: "microsoft_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
@@ -459,8 +455,7 @@ const certifications = {
       title: "Advanced Data Science",
       subtitle: "- Romeo Kienzler",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -468,8 +463,7 @@ const certifications = {
       title: "Advanced ML on GCP",
       subtitle: "- GCP Training",
       logo_path: "google_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
@@ -477,8 +471,7 @@ const certifications = {
       title: "DL on Tensorflow",
       subtitle: "- Laurence Moroney",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
@@ -486,8 +479,7 @@ const certifications = {
       title: "Fullstack Development",
       subtitle: "- Jogesh Muppala",
       logo_path: "coursera_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Coursera",
       color_code: "#2A73CC",
     },
@@ -495,8 +487,7 @@ const certifications = {
       title: "Kuberenetes on GCP",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
@@ -504,8 +495,7 @@ const certifications = {
       title: "Cryptography",
       subtitle: "- Saurabh Mukhopadhyay",
       logo_path: "nptel_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "NPTEL",
       color_code: "#FFBB0099",
     },
@@ -513,8 +503,7 @@ const certifications = {
       title: "Cloud Architecture",
       subtitle: "- Qwiklabs",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "GCP",
       color_code: "#4285F499",
     },
@@ -753,7 +742,6 @@ const contactPageData = {
     subtitle: "",
   },
 };
-
 
 export {
   settings,
