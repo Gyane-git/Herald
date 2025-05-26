@@ -2,6 +2,7 @@ import React from "react";
 import ProjectLanguages from "../../components/projectLanguages/ProjectLanguages";
 import "./GithubRepoCard.css";
 import { Fade } from "react-reveal";
+import projectLinks from "../../shared/projectLinks";
 
 export default function GithubRepoCard({ repo, theme }) {
   function openRepoinNewTab(url) {
@@ -11,7 +12,11 @@ export default function GithubRepoCard({ repo, theme }) {
 
   const handleShowClick = (e) => {
     e.stopPropagation(); // Prevent card click event
-    window.open("https://gyanendrasah.com.np/", "_blank");
+    // Get the repository name from the full name (remove username part)
+    const repoName = repo.name;
+    // Get the custom URL from projectLinks, or fall back to GitHub URL
+    const customUrl = projectLinks[repoName] || repo.url;
+    window.open(customUrl, "_blank");
   };
 
   return (
